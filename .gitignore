@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment / secrets
+.env
+
+# Challenge datasets
+dataset/
+student_resource/samples/
+
+# Generated outputs
+output/
+student_resource/code/business_entity_resolution/output/
+
+# Generated test artifacts
+student_resource/code/business_entity_resolution/tests/generated/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.model
+
+# OS
+.DS_Store
